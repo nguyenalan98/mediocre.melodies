@@ -1,0 +1,1171 @@
+@font-face {
+  font-family: nameGrafiti;
+  src: url(docallismeonstreet.otf)
+  /* Source: https://www.dafont.com/docallisme-on-street.font?back=theme */
+}
+
+@font-face {
+  font-family: navGrafiti;
+  src: url(abuse.ttf)
+  /* Source: https://www.dafont.com/abuse.font */
+}
+
+@font-face {
+  font-family: freshMarker;
+  src: url(freshmarker.ttf)
+  /* Source: https://www.dafont.com/fresh-marker.font */
+}
+
+@font-face {
+  font-family: twisted-system;
+  src: url(twisted-system.otf)
+  /* Source: https://www.dafont.com/twisted-system.font?back=theme */
+}
+
+@font-face {
+  font-family: coftea;
+  src: url(coffeeTea.ttf)
+  /* Source: https://www.dafont.com/coffee-tea.font?back=theme */
+}
+
+
+@font-face{
+  font-family: Flow;
+  src: url(Flow.otf)
+  /* Source: https://www.behance.net/gallery/34747939/Flow-free-brush-font */
+}
+
+@font-face{
+  font-family: lib;
+  src: url(lib.otf)
+  /* Source: https://www.fontspace.com/igor-kosinsky/library-3-am */
+}
+
+@font-face{
+  font-family: libsoft;
+  src: url(libsoft.otf)
+  /* Source: https://www.fontspace.com/igor-kosinsky/library-3-am */
+}
+
+body{
+  background-image: url("../media/darkbackground.jpg");
+  /* Source: photoshopped from background.jpeg */
+  min-height:97.5vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: auto 0;
+}
+
+.top-home-container{
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  margin-top: 100px;
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+.logo-img-home{
+  margin-top: 20px;
+  width: 490px;
+  display: inline-block;
+  transform: rotate(-10deg);
+}
+
+.logo-fig-home{
+  width: 50%;
+  height: 400px;
+  float: left;
+  flex-grow: 1;
+  margin-top: -90px;
+}
+
+
+#infopage{
+  background-image: url("../media/darkbackground.jpg");
+  /* Source: photoshopped from background.jpeg */
+  min-height:97.5vh;
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#contactbody{
+  background-image: url("../media/darkbackground.jpg");
+  /* Source: photoshopped from background.jpeg */
+  min-height:97.5vh;
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center center;
+  text-align: center;
+  color:blue;
+}
+
+#gallery-body {
+  background-image: url("../media/darkbackground.jpg");
+  /* Source: photoshopped from background.jpeg */
+  min-height:97.5vh;
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+.title{
+  text-align: left;
+  font-family: nameGrafiti, sans-serif;
+  color: #38bedb;
+  font-size: 100px;
+  margin:0px;
+  display:inline-block;
+}
+
+#missiontitle{
+  text-align: center;
+  font-family: twisted-system, sans-serif;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 30px auto;
+}
+
+#missionstatement{
+  text-align: center;
+  font-family: coftea, sans-serif;
+  font-size:30px;
+  color: white;
+  width:70%;
+  display:inline-block;
+  margin:0px;
+  padding:0px;
+  font-weight:800;
+  letter-spacing: 3px;
+  line-height: 2;
+}
+
+#mission{
+  text-align: center;
+  display:inline-block;
+}
+
+.home-nav-element{
+  display: inline-block;
+  padding: 10px;
+  font-size: 28px;
+  font-family: navGrafiti, sans-serif;
+  text-align: center;
+  width: 28%;
+}
+
+.nav-element{
+  font-family: navGrafiti, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  width: 31%;
+  text-align: center;
+
+}
+
+nav{
+  text-align: center;
+}
+.nav-element a{
+  color: white;
+  text-decoration: none;
+}
+
+.home-nav-element a{
+  color: #1d8fa3;
+  text-decoration: none;
+}
+.home-nav{
+  flex-grow: 2;
+  float: right;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+
+}
+
+.home-nav-ul{
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.page-nav ul{
+  text-align: center;
+  padding: 0;
+}
+
+.page-heading-cont{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.page-nav{
+  flex-grow: 3;
+  margin: auto 0;
+}
+
+.page-logo-img{
+  width: 50%;
+}
+
+.page-logo-fig{
+  flex-grow: 1;
+  width: 30%;
+  text-align: center;
+  margin: 0;
+}
+
+#concertPoster{
+  width: 500px;
+}
+
+#concertPoster-fig{
+  text-align: center;
+  background-image: url("../media/squiggle.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 70% 96%;
+}
+
+.slogan-fig{
+  text-align: center;
+  margin: auto;
+}
+
+.submission{
+  border:none;
+  background-color:rgba(0,0,50,0.65);
+  width:75%;
+  display: inline-block;
+  font-family: libsoft,sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+  color:cornflowerblue;
+}
+
+.slogan-img{
+  width: 65%;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #b01271;
+}
+
+#members{
+  background-image: url("../media/darkbackground.jpg");
+  min-height:97.5vh;
+  background-size: contain;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+.membs{
+  text-align: center;
+  color: white;
+  font-family: twisted-system, sans-serif;
+  font-size: 100px;
+  letter-spacing: 5px;
+  }
+.caption{
+  text-align: center;
+  color: white;
+  font-family: twisted-system, sans-serif;
+  font-size: 5vw;
+  letter-spacing: 5px;
+}
+
+.pres-container{
+  position: relative;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.pres-container:hover .memberpic {
+  opacity: 0.3;
+}
+
+.pres-container:hover .middle {
+  opacity: 1;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.image {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  text-align: center;
+}
+
+.middle {
+  transition: .5s ease;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.container:hover .memberpic {
+  opacity: 0.3;
+}
+.container:hover .fillerpic {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+#special:hover .memberpic {
+  opacity: 0.3;
+}
+#special:hover .fillerpic {
+  opacity: 0.3;
+}
+
+#special:hover .middle {
+  opacity: 1;
+}
+.text {
+  background-color: #2aa9c4;
+  color: black;
+  font-size: 6vw;
+  font-family: twisted-system,sans-serif;
+}
+
+.eboard{
+  /* flex-direction: row; */
+  text-align: center;
+  /* display: flex; */
+}
+#special{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+@media(min-width: 750px){
+#special{
+  position: relative;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+  .container {
+      position: relative;
+      width: 100%;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 30%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    text-align: center;
+  }
+  .caption{
+    text-align: center;
+    color: white;
+    font-family: twisted-system, sans-serif;
+    font-size: 3vw;
+    letter-spacing: 5px;
+  }
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .membersrow{
+      flex-grow: 1;
+      display: inline-block;
+      padding: 5px;
+      width: 30%;
+      text-align: center;
+  }
+  .allbrothers{
+    flex-direction: row;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  .eboard{
+    flex-direction: row;
+    text-align: center;
+    margin: 30px auto 60px;
+    display: flex;
+  }
+  .pres-container{
+    position: relative;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .pres-container:hover .memberpic {
+    opacity: 0.3;
+  }
+
+  .pres-container:hover .middle {
+    opacity: 1;
+  }
+  .text {
+    background-color: #2aa9c4;
+    color: black;
+    font-size: 2.5vw;
+    font-family: twisted-system,sans-serif;
+  }
+}
+.membersrow{
+    /* flex-grow: 1; */
+    display: block;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.memberpic{
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.allbrothers{
+  flex-direction: row;
+  text-align: center;
+}
+
+
+
+.linkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.content_title{
+  text-align: center;
+  color:white;
+  font-family: lib, sans-serif;
+}
+.linkbox a{
+  display:inline-block;
+  width:21%;
+  min-width:250px;
+  transition:0.3s;
+}
+
+.boxes:hover img{
+  opacity:0.8;
+}
+
+.boxes:hover h3,.boxes:hover p{
+  color:yellow;
+}
+
+.link h3 {
+  text-align: center;
+  display:inline-block;
+  color:white;
+  height:55px;
+  font-size: 22px;
+}
+
+.link{
+  height:100%;
+}
+
+.content_title h1{
+  text-align: center;
+  display:inline-block;
+  color:white;
+  font-size: 100px;
+  font-family: twisted-system, sans-serif;
+  letter-spacing: 5px;
+}
+
+.link img{
+  width: 100%;
+  height: 45%;
+}
+
+.content_info {
+  width: 90%;
+  line-height: 1.5em;
+  margin:auto;
+  text-align: center;
+  color:white;
+}
+
+#contact_div{
+  width:75%;
+  display: inline-block;
+  font-family: libsoft,sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+  background-color:rgba(0,0,50,0.65);
+  margin:auto;
+}
+
+.feedback{
+  color:red;
+  font-weight:900;
+  font-size:35px;
+  text-shadow: 2px 2px 2px black, 0 0 30px red, 0 0 10px darkred;
+  text-align: center;
+}
+
+.hidden{
+  display:none;
+}
+
+/* .display-image {
+  display: block;
+} */
+
+#contact_form{
+  width:75%;
+  color:cornflowerblue;
+  display:inline-block;
+  margin:auto;
+}
+
+input[type=text]{
+  box-sizing: border-box;
+  border: 3px solid cornflowerblue;
+  border-radius: 1px;
+  color: lightsteelblue;
+  outline:none;
+  font-weight: bold;
+  text-align: center;
+  background: transparent;
+  width:50%;
+  font-size: 20px;
+  padding:15px;
+  box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+}
+
+input[type=email]{
+  box-sizing: border-box;
+  border: 3px solid cornflowerblue;
+  border-radius: 1px;
+  color: lightsteelblue;
+  outline:none;
+  font-weight: bold;
+  text-align: center;
+  background: transparent;
+  width:50%;
+  font-size: 20px;
+  padding:15px;
+  box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+}
+
+input[type=text]:hover,input[type=text]:active,input[type=text]:focus{
+  color: yellow;
+  text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  border:3px solid yellow;
+  box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+}
+
+input[type=email]:hover,input[type=text]:active,input[type=text]:focus{
+  color: yellow;
+  text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  border:3px solid yellow;
+  box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+}
+
+#submitbutton{
+  background-color: transparent;
+  border: cornflowerblue;
+  color: cornflowerblue;
+  padding: 10px;
+  margin:10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  border: 3px solid cornflowerblue;
+  font-weight: bold;
+  width:50%;
+  font-family: libsoft,sans-serif;
+  text-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+  box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+}
+
+#contact_form ul {
+  padding: 10px;
+  display:inline-block;
+  width:100%;
+  text-align: center;
+}
+
+#contact_form li {
+  display:block;
+  list-style-type: none;
+  padding:10px;
+}
+
+fieldset{
+    border:3px solid cornflowerblue;
+}
+
+label {
+  display:inline-block;
+  width: 25%;
+  text-align:right;
+  text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+}
+
+label:hover, label:active, label:focus{
+  color: yellow;
+  text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+}
+
+#submitbutton:hover,#submitbutton:focus,#submitbutton:active{
+  color: yellow;
+  text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  border:3px solid yellow;
+  box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  cursor:pointer;
+}
+
+.slideshow {
+  background-image: url("../media/slideshowbackground2.png");
+  /* Source: photoshopped from background.jpeg */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slideshow-image-container {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.slideshow img {
+  height: 60%;
+  max-height: 500px;
+}
+
+.button-container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.slideshowButtonHolder{
+  background-color: white;
+}
+
+.slideshow-button {
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 40px;
+}
+
+.gallery-container {
+  width: 100%;
+}
+
+.gallery-container h2 {
+  text-align: center;
+  font-family: libsoft,sans-serif;
+  color: cornflowerblue;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+}
+
+.gallery {
+  width: 80%;
+  margin: auto;
+  /* column-count: 2; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-card {
+  margin: 10px;
+  width: 25%;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+.gallery-image:hover {
+  opacity: 1.0;
+}
+
+.expanding-image-container {
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background: black;
+}
+
+.closebutton {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 20px;
+  right: 80px;
+}
+
+.expanding-image-container img {
+  height: 100vh;
+}
+
+.applyText{
+  color: white;
+  background-color: rgba(29, 38, 59, 0.69);
+  text-align: center;
+  font-family: libsoft, sans-serif;
+  margin: 20px 30px;
+  padding: 10px 10px;
+}
+
+.applyText h2{
+  font-size: 80px;
+}
+
+.applyText p{
+  font-size: 50px;
+}
+
+.applyText h3{
+  font-size: 60px;
+}
+
+
+@media (max-width: 1180px){
+  .home-nav-element{
+    font-size: 22px;
+    width: 25%;
+    padding: 5px;
+  }
+
+  .home-nav-ul{
+    vertical-align: middle;
+  }
+
+  .logo-img-home{
+    width: 430px;
+  }
+
+  #concertPoster-fig{
+    background-size: 80% 96%;
+  }
+}
+
+
+@media (max-width: 950px) {
+
+  #concertPoster{
+    width: 60%;
+  }
+
+  #concertPoster-fig{
+    background-size: 90% 96%;
+  }
+
+  .logo-img-home{
+    width: 390px;
+  }
+
+  .page-logo-img{
+    width: 65%;
+  }
+
+  .nav-element{
+    font-size: 20px;
+    width: 30%;
+  }
+
+  .link h3 {
+    text-align: center;
+    display:inline-block;
+    color:white;
+    height:25%;
+  }
+
+  .link{
+    height:50%;
+  }
+
+  .content_title h1{
+    text-align: center;
+    display:block;
+    color:white;
+    height:30%;
+    font-size:20px;
+  }
+
+  .link img{
+    text-align:center;
+    width: 95%;
+    height: 55%;
+  }
+
+  .content_info {
+    width: 95%;
+    line-height: 1.5em;
+    margin:auto;
+    text-align: center;
+    color:white;
+
+  }
+
+  #contact_div{
+    width:95%;
+    display: block;
+    font-family: libsoft,sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+    background-color:rgba(0,0,50,0.65);
+    margin:auto;
+    font-size:20px;
+  }
+
+  .feedback{
+    color:red;
+    font-weight:900;
+    text-shadow: 2px 2px 2px black, 0 0 30px red, 0 0 10px darkred;
+    text-align: center;
+    display:block;
+    font-size:20px;
+  }
+
+  .hidden{
+    display:none;
+  }
+
+  #contact_form{
+    width:95%;
+    color:cornflowerblue;
+    display:block;
+    margin:auto;
+  }
+
+  input[type=text]{
+    box-sizing: border-box;
+    border: 3px solid cornflowerblue;
+    border-radius: 1px;
+    color: lightsteelblue;
+    outline:none;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    width:95%;
+    font-size: 16px;
+    padding:15px;
+    box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+  }
+
+  input[type=email]{
+    box-sizing: border-box;
+    border: 3px solid cornflowerblue;
+    border-radius: 1px;
+    color: lightsteelblue;
+    outline:none;
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    width:95%;
+    font-size: 16px;
+    padding:15px;
+    box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+  }
+
+  input[type=text]:hover,input[type=text]:active,input[type=text]:focus{
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+    border:3px solid yellow;
+    box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  }
+
+  input[type=email]:hover,input[type=text]:active,input[type=text]:focus{
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+    border:3px solid yellow;
+    box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  }
+
+  #submitbutton{
+    background-color: transparent;
+    border: cornflowerblue;
+    color: cornflowerblue;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    border: 3px solid cornflowerblue;
+    font-weight: bold;
+    width:95%;
+    font-family: libsoft,sans-serif;
+    text-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+    box-shadow: 2px 2px 2px black, 0 0 15px cornflowerblue, 0 0 10px blue;
+  }
+
+  #contact_form ul {
+    display:block;
+    width:95%;
+    text-align: center;
+  }
+
+  #contact_form li {
+    display:block;
+    list-style-type: none;
+    width:95%;
+  }
+
+  fieldset{
+      border:3px solid cornflowerblue;
+  }
+
+  label {
+    display:block;
+    width: 95%;
+    text-align:center;
+    text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+  }
+
+  label:hover, label:active, label:focus{
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+  }
+
+  #submitbutton:hover,#submitbutton:focus,#submitbutton:active{
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+    border:3px solid yellow;
+    box-shadow: 2px 2px 2px black, 0 0 30px yellow, 0 0 10px #bd9e19;
+    cursor:pointer;
+  }
+
+  #missiontitle{
+    text-align: center;
+    font-family: twisted-system, sans-serif;
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 30px;
+  }
+
+  #missionstatement{
+    text-align: center;
+    font-family: cofTea, sans-serif;
+    font-size:25px;
+    color: white;
+    font-weight:800;
+    margin-top: 20px;
+  }
+
+  #infopage{
+    background-image: url("../media/darkbackground.jpg");
+    /* Source: photoshopped from background.jpeg */
+    min-height:97.5vh;
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center center;
+  }
+
+  #contactbody{
+    background-image: url("../media/darkbackground.jpg");
+    /* Source: photoshopped from background.jpeg */
+    min-height:97.5vh;
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-position: center center;
+    text-align: center;
+    color:blue;
+  }
+
+  .linkbox {
+    display: block;
+    text-align: center;
+    font-family: libsoft,sans-serif;
+    margin-bottom: 40px;
+  }
+  .boxes{
+    margin: 30px auto;
+  }
+  .content_title{
+    text-align: center;
+    color:white;
+    font-family: twisted-system sans-serif;
+  }
+
+  .content_title h1{
+    font-size: 55px;
+    margin-top: 50px;
+  }
+  .linkbox a{
+    text-align: center;
+    display:block;
+    min-width:250px;
+    transition:0.3s;
+  }
+
+  .submission{
+    border:none;
+    background-color:rgba(0,0,50,0.65);
+    width:80%;
+    display: inline-block;
+    font-family: libsoft,sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black, 0 0 30px cornflowerblue, 0 0 10px blue;
+    color:cornflowerblue;
+  }
+
+  .slideshow img {
+    width: 80%;
+  }
+
+  .gallery-card {
+    margin: 10px;
+    width: 70%;
+  }
+  .closebutton {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 20px;
+    right: 10px;
+  }
+
+  .expanding-image-container img {
+    width: 80%;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .top-home-container{
+    background-color: transparent;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+  }
+
+  .logo-fig-home{
+    height: auto;
+  }
+
+  .logo-img-home{
+    transform: none;
+    width: 65%;
+  }
+
+  .home-nav-element{
+    font-size: 20px;
+  }
+
+  .home-nav{
+    background-color: yellow;
+  }
+
+  .slideshow img {
+    width: 80%;
+  }
+
+  .gallery-card {
+    margin: 10px;
+    width: 70%;
+  }
+
+  .page-logo-fig{
+    order: 1;
+    width: 100%;
+  }
+
+  .page-logo-img{
+    width: 45%;
+  }
+  .page-nav{
+    order: 2;
+    width: 100%;
+  }
+  .page-heading-cont{
+    flex-wrap: wrap;
+  }
+
+  .applyText h2{
+    font-size: 60px;
+  }
+
+  .applyText h3{
+    font-size: 40px;
+  }
+
+  .applyText p{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 350px){
+  .home-nav-element{
+    font-size: 15px;
+  }
+  .closebutton {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 20px;
+    right: 5px;
+  }
+
+  .expanding-image-container img {
+    width: 80%;
+  }
+
+
+  .content_title h1{
+    font-size: 40px;
+  }
+
+  #missiontitle{
+    font-size: 40px;
+  }
+
+  #missionstatement{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mediocre Melodies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/all.css"/>
+  <script src = "scripts/jquery-3.3.1.min.js"></script>
+  <script src = "scripts/validation.js" type ="text/javascript"></script>
+</head>
+
+<body id="contactbody">
+
+  <div class="page-heading-cont">
+
+    <nav class="page-nav">
+      <ul>
+        <li class="nav-element"><a href="index.html">Home</a></li>
+        <li class="nav-element"><a href="information.html">About Us</a></li>
+        <li class="nav-element"><a href="members.html">Members</a></li>
+      </ul>
+    </nav>
+
+    <figure class="page-logo-fig">
+      <img class="page-logo-img" src="media/logo.png" alt="Mediocre Melodies Logo"/>
+    </figure>
+
+    <nav class="page-nav">
+      <ul>
+        <li class="nav-element"><a href="gallery.html">Gallery</a></li>
+        <li class="nav-element"><a href="contact.html">Contact Us</a></li>
+        <li class="nav-element"><a href="apply.html">Apply</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id = "contact_div">
+  <form id="contact_form" method="post" action="submitAndEmailSendGrid.php" novalidate>
+    <h2>Contact Form</h2>
+          <fieldset>
+            <legend>Please enter information and submit to contact us!</legend>
+            <h2 class="completion hidden" id="completionMessage">Mediocre melodies has been contacted</h2>
+            <ul>
+
+              <li class="contact">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder = "Please enter name" required/>
+                <p class="feedback hidden" id="nameValid">Please enter your name</p>
+              </li>
+
+              <li class="contact">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder = "Please enter email" required/>
+                <p class="feedback hidden" id="emailValid">Please input a valid e-mail address</p>
+              </li>
+
+              <li class="contact">
+                <label for="charity">Charity:</label>
+                <input type="text" id="charity" name="charity" placeholder = "Please enter charity of choice" required/>
+                <p class="feedback hidden" id="charityValid">Please input a charity of choice</p>
+              </li>
+
+              <li class="contact">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder = "Please enter phone number"/>
+              </li>
+
+            </ul>
+          </fieldset>
+
+          <input id = "submitbutton" type="submit" class = "submit" name = "submitform" value="submit"/>
+  </form>
+</div>
+</body>
+
+</html>
